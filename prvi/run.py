@@ -8,7 +8,7 @@ APP_PORT = 5000
 
 @app.route ("/", methods = ["GET", "POST"])
 def hello_world():
-    return render_template("index.html")
+    return "bla bla bla"
 
 app.config["DEBUG"] = True
 app.run(host=APP_ADDRESS, port= APP_PORT)
