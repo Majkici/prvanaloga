@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    
+    {% if podatki ['uspeh'] %}
+	<i>Uspešno sem se povezal na DB.</i>
+	{%else%}
+	<i><b>Neuspešno</b> sem se povezal NA db.</i>
+	{% endif %}
 </body>
 </html>
